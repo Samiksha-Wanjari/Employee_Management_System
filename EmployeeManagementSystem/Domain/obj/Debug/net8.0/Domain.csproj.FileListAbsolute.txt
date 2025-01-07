@@ -1,0 +1,12 @@
+E:\SSD Files\EMS\EmployeeManagementSystem\Domain\bin\Debug\net8.0\Domain.deps.json
+E:\SSD Files\EMS\EmployeeManagementSystem\Domain\bin\Debug\net8.0\Domain.dll
+E:\SSD Files\EMS\EmployeeManagementSystem\Domain\bin\Debug\net8.0\Domain.pdb
+E:\SSD Files\EMS\EmployeeManagementSystem\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+E:\SSD Files\EMS\EmployeeManagementSystem\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\SSD Files\EMS\EmployeeManagementSystem\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+E:\SSD Files\EMS\EmployeeManagementSystem\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+E:\SSD Files\EMS\EmployeeManagementSystem\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+E:\SSD Files\EMS\EmployeeManagementSystem\Domain\obj\Debug\net8.0\Domain.dll
+E:\SSD Files\EMS\EmployeeManagementSystem\Domain\obj\Debug\net8.0\refint\Domain.dll
+E:\SSD Files\EMS\EmployeeManagementSystem\Domain\obj\Debug\net8.0\Domain.pdb
+E:\SSD Files\EMS\EmployeeManagementSystem\Domain\obj\Debug\net8.0\ref\Domain.dll

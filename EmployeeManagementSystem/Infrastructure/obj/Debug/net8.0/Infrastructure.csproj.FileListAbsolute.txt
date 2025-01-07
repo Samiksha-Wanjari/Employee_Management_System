@@ -1,0 +1,15 @@
+E:\SSD Files\EMS\EmployeeManagementSystem\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+E:\SSD Files\EMS\EmployeeManagementSystem\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+E:\SSD Files\EMS\EmployeeManagementSystem\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+E:\SSD Files\EMS\EmployeeManagementSystem\Infrastructure\bin\Debug\net8.0\Domain.dll
+E:\SSD Files\EMS\EmployeeManagementSystem\Infrastructure\bin\Debug\net8.0\Domain.pdb
+E:\SSD Files\EMS\EmployeeManagementSystem\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+E:\SSD Files\EMS\EmployeeManagementSystem\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\SSD Files\EMS\EmployeeManagementSystem\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+E:\SSD Files\EMS\EmployeeManagementSystem\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+E:\SSD Files\EMS\EmployeeManagementSystem\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+E:\SSD Files\EMS\EmployeeManagementSystem\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
+E:\SSD Files\EMS\EmployeeManagementSystem\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+E:\SSD Files\EMS\EmployeeManagementSystem\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+E:\SSD Files\EMS\EmployeeManagementSystem\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+E:\SSD Files\EMS\EmployeeManagementSystem\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll

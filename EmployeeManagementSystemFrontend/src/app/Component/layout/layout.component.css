@@ -1,0 +1,184 @@
+/* Parent container */
+.parent {
+    width: 100%;
+  }
+  
+  /* Navbar styles */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(45deg, #007bff, #00bfff); /* Gradient background */
+    padding: 15px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Left side with title */
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .site-title {
+    font-size: 1.75rem;
+    color: white;
+    margin: 0;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Right side with navbar buttons */
+  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Navbar items */
+  ul.navbar {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li.nav-item {
+    position: relative;
+    margin-left: 20px;
+  }
+  
+  .profile-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .profile-circle:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+  }
+  
+  button.dropdown-toggle {
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding-left: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  ul.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: calc(100% + 5px);  left: 0;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    width: 150px;
+    z-index: 1000;
+  }
+  
+  ul.dropdown-menu.show {
+    display: block;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  button.navbar-button,
+  button.dropdown-item {
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 12px 15px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  /* Show dropdown menu on hover */
+  li.nav-item.dropdown:hover ul.dropdown-menu {
+    display: block;
+  }
+  
+  /* Ensure dropdown menu aligns correctly */
+  ul.dropdown-menu {
+    display: none; /* Default hidden */
+    position: absolute;
+    top: calc(100% + 5px); /* Add spacing between menu and trigger */
+    left: 0;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    width: 150px;
+    z-index: 1000; /* Ensure it stays above other elements */
+  }
+  
+  /* Transition for smooth appearance */
+  ul.dropdown-menu {
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  li.nav-item.dropdown:hover ul.dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  /* Prevent hover effects interfering with click functionality */
+  button.dropdown-toggle {
+    pointer-events: none; /* Disable click when using hover */
+  }
+  
+  
+  button.navbar-button:hover,
+  button.dropdown-item:hover {
+    background-color: #00bfff;
+    color: #fff;
+  }
+  
+  button.navbar-button {
+    border-radius: 5px;
+    margin-left: 25px;
+    padding: 10px 20px;
+    background-color: #ff5733;
+  }
+  
+  button.navbar-button:hover {
+    background-color: #e94e2f;
+  }
+  
+  /* Hover effect for profile circle */
+  .profile-circle:hover {
+    opacity: 0.8;
+  }
+  
+  /* Responsive design for small screens */
+  @media (max-width: 768px) {
+    .navbar-left,
+    .navbar-right {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .site-title {
+      padding-left: 0;
+      margin-bottom: 10px;
+    }
+  
+    ul.navbar {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  

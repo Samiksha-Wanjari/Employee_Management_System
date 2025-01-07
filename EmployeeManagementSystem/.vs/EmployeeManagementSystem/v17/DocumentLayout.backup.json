@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\SSD Files\\EMS\\EmployeeManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{52E8457D-3145-4EB3-AB52-A940AA3E51B7}|Domain\\Domain.csproj|e:\\ssd files\\ems\\employeemanagementsystem\\domain\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52E8457D-3145-4EB3-AB52-A940AA3E51B7}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5038ACCA-DE75-4D1E-B032-4E6E64E63343}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|e:\\ssd files\\ems\\employeemanagementsystem\\employeemanagementsystem\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5038ACCA-DE75-4D1E-B032-4E6E64E63343}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52E8457D-3145-4EB3-AB52-A940AA3E51B7}|Domain\\Domain.csproj|e:\\ssd files\\ems\\employeemanagementsystem\\domain\\entities\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52E8457D-3145-4EB3-AB52-A940AA3E51B7}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4EE8DAE-91FD-45F5-8847-99BB13E2C36E}|Infrastructure\\Infrastructure.csproj|e:\\ssd files\\ems\\employeemanagementsystem\\infrastructure\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4EE8DAE-91FD-45F5-8847-99BB13E2C36E}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5038ACCA-DE75-4D1E-B032-4E6E64E63343}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|e:\\ssd files\\ems\\employeemanagementsystem\\employeemanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5038ACCA-DE75-4D1E-B032-4E6E64E63343}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5038ACCA-DE75-4D1E-B032-4E6E64E63343}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|e:\\ssd files\\ems\\employeemanagementsystem\\employeemanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5038ACCA-DE75-4D1E-B032-4E6E64E63343}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeeDto.cs",
+              "DocumentMoniker": "E:\\SSD Files\\EMS\\EmployeeManagementSystem\\Domain\\Entities\\EmployeeDto.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\EmployeeDto.cs",
+              "ToolTip": "E:\\SSD Files\\EMS\\EmployeeManagementSystem\\Domain\\Entities\\EmployeeDto.cs",
+              "RelativeToolTip": "Domain\\Entities\\EmployeeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T17:33:11.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "E:\\SSD Files\\EMS\\EmployeeManagementSystem\\EmployeeManagementSystem\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Controllers\\EmployeesController.cs",
+              "ToolTip": "E:\\SSD Files\\EMS\\EmployeeManagementSystem\\EmployeeManagementSystem\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "EmployeeManagementSystem\\Controllers\\EmployeesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAB4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T21:58:45.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\SSD Files\\EMS\\EmployeeManagementSystem\\EmployeeManagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Program.cs",
+              "ToolTip": "E:\\SSD Files\\EMS\\EmployeeManagementSystem\\EmployeeManagementSystem\\Program.cs",
+              "RelativeToolTip": "EmployeeManagementSystem\\Program.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAkwCMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T21:56:06.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\SSD Files\\EMS\\EmployeeManagementSystem\\EmployeeManagementSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\appsettings.json",
+              "ToolTip": "E:\\SSD Files\\EMS\\EmployeeManagementSystem\\EmployeeManagementSystem\\appsettings.json",
+              "RelativeToolTip": "EmployeeManagementSystem\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-05T21:55:45.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "E:\\SSD Files\\EMS\\EmployeeManagementSystem\\Infrastructure\\DataContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\DataContext.cs",
+              "ToolTip": "E:\\SSD Files\\EMS\\EmployeeManagementSystem\\Infrastructure\\DataContext.cs",
+              "RelativeToolTip": "Infrastructure\\DataContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T21:54:19.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "E:\\SSD Files\\EMS\\EmployeeManagementSystem\\Domain\\Entities\\Employee.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Employee.cs",
+              "ToolTip": "E:\\SSD Files\\EMS\\EmployeeManagementSystem\\Domain\\Entities\\Employee.cs",
+              "RelativeToolTip": "Domain\\Entities\\Employee.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAwA4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T21:50:56.871Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

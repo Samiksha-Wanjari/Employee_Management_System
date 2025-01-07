@@ -1,0 +1,169 @@
+<div class="container mt-4">
+    <h2>Employee Management</h2>
+    <div class="d-flex justify-content-between mb-3">
+      <button class="btn btn-primary" (click)="openAddForm()">Add Employee</button>
+    </div>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Job Title</th>
+          <th>Department</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        @for (item of employees; track $index) {
+
+        <tr >
+          <td>{{$index+1}}</td>
+          <td>{{ item.fullname }}</td>
+          <td>{{ item.email }}</td>
+          <td>{{ item.jobTitle }}</td>
+          <td>{{ item.department }}</td>
+          <td>
+            <button class="btn btn-info btn-sm m-2" (click)="viewEmployee(item)">View</button>
+            <button class="btn btn-warning btn-sm m-2" (click)="editEmployee(item)">Edit</button>
+            <button class="btn btn-danger btn-sm m-2" (click)="deleteEmployee(item.id)">Delete</button>
+          </td>
+        </tr>
+        }
+      </tbody>
+      
+    </table>
+  </div>
+
+<!-- Add Employee Modal -->
+<div class="modal fade" id="addEmployeeModal" tabindex="-1" aria-labelledby="addEmployeeModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="addEmployeeModalLabel">Add Employee</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form [formGroup]="addEmployeeForm" (ngSubmit)="onSubmit()">
+                    <div class="mb-3">
+                        <label for="fullname" class="form-label">Full Name</label>
+                        <input type="text" id="fullname" class="form-control" formControlName="fullname">
+                    </div>
+                    <div class="mb-3">
+                        <label for="age" class="form-label">Age</label>
+                        <input type="number" id="age" class="form-control" formControlName="age">
+                    </div>
+                    <div class="mb-3">
+                      <label for="gender" class="form-label">Gender</label>
+                      <input type="text" id="gender" class="form-control" formControlName="gender">
+                  </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" id="email" class="form-control" formControlName="email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="phone" class="form-label">Phone</label>
+                        <input type="text" id="phone" class="form-control" formControlName="phone">
+                    </div>
+                    <div class="mb-3">
+                        <label for="jobTitle" class="form-label">Job Title</label>
+                        <input type="text" id="jobTitle" class="form-control" formControlName="jobTitle">
+                    </div>
+                    <div class="mb-3">
+                        <label for="department" class="form-label">Department</label>
+                        <input type="text" id="department" class="form-control" formControlName="department">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Add Employee</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Update Employee Modal -->
+<div class="modal fade" id="updateEmployeeModal" tabindex="-1" aria-labelledby="updateEmployeeModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="updateEmployeeModalLabel">Update Employee</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form [formGroup]="addEmployeeForm" (ngSubmit)="onUpdate()">
+          <div class="mb-3">
+            <label for="updateFullname" class="form-label">Full Name</label>
+            <input type="text" id="updateFullname" class="form-control" formControlName="fullname">
+          </div>
+          <div class="mb-3">
+            <label for="updateAge" class="form-label">Age</label>
+            <input type="number" id="updateAge" class="form-control" formControlName="age">
+          </div>
+          <div class="mb-3">
+            <label for="updateGender" class="form-label">Gender</label>
+            <input type="text" id="updateGender" class="form-control" formControlName="gender">
+          </div>
+          <div class="mb-3">
+            <label for="updateEmail" class="form-label">Email</label>
+            <input type="email" id="updateEmail" class="form-control" formControlName="email">
+          </div>
+          <div class="mb-3">
+            <label for="updatePhone" class="form-label">Phone</label>
+            <input type="text" id="updatePhone" class="form-control" formControlName="phone">
+          </div>
+          <div class="mb-3">
+            <label for="updateJobTitle" class="form-label">Job Title</label>
+            <input type="text" id="updateJobTitle" class="form-control" formControlName="jobTitle">
+          </div>
+          <div class="mb-3">
+            <label for="updateDepartment" class="form-label">Department</label>
+            <input type="text" id="updateDepartment" class="form-control" formControlName="department">
+          </div>
+          <button type="submit" class="btn btn-primary">Update Employee</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- View Employee Modal -->
+<div class="modal fade" id="viewEmployeeModal" tabindex="-1" aria-labelledby="viewEmployeeModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="viewEmployeeModalLabel">View Employee</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form [formGroup]="addEmployeeForm">
+          <div class="mb-3">
+            <label for="viewFullname" class="form-label">Full Name</label>
+            <input type="text" id="viewFullname" class="form-control" formControlName="fullname" readonly>
+          </div>
+          <div class="mb-3">
+            <label for="viewAge" class="form-label">Age</label>
+            <input type="number" id="viewAge" class="form-control" formControlName="age" readonly>
+          </div>
+          <div class="mb-3">
+            <label for="viewGender" class="form-label">Gender</label>
+            <input type="text" id="viewGender" class="form-control" formControlName="gender" readonly>
+          </div>
+          <div class="mb-3">
+            <label for="viewEmail" class="form-label">Email</label>
+            <input type="email" id="viewEmail" class="form-control" formControlName="email" readonly>
+          </div>
+          <div class="mb-3">
+            <label for="viewPhone" class="form-label">Phone</label>
+            <input type="text" id="viewPhone" class="form-control" formControlName="phone" readonly>
+          </div>
+          <div class="mb-3">
+            <label for="viewJobTitle" class="form-label">Job Title</label>
+            <input type="text" id="viewJobTitle" class="form-control" formControlName="jobTitle" readonly>
+          </div>
+          <div class="mb-3">
+            <label for="viewDepartment" class="form-label">Department</label>
+            <input type="text" id="viewDepartment" class="form-control" formControlName="department" readonly>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
